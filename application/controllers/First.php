@@ -31,5 +31,6 @@ class First extends Application
             $this->data = array_merge($this->data, $record);
             $this->render();
     }
+    
 
 }
