@@ -4,10 +4,13 @@
 > Please write the latest log on top
 
 ### Version 0.0.3
-Fix the issus #2
+Fix the issus #3, sleep
+
+### Version 0.0.3
+Fix the issus #2, Last
 
 ### Version 0.0.2
-Fix the issue #1
+Fix the issue #1, First
 
 ### Version 0.0.1
 1. initialize the project
