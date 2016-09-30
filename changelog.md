@@ -3,9 +3,11 @@
 > For developers:
 > Please write the latest log on top
 
+### Version 0.0.3
+Fix the issus #2
 
 ### Version 0.0.2
-Fix the first issue
+Fix the issue #1
 
 ### Version 0.0.1
 1. initialize the project
