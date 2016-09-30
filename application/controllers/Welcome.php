@@ -38,6 +38,7 @@ class Welcome extends Application
             $this->data['what']=$source['what'];
             
             $this->render();
+            
                   
     }
 
