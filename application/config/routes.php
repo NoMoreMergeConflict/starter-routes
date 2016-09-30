@@ -54,4 +54,3 @@ $route['lock/(:any)/(:any)'] = 'welcome/shucks/$1';
 $route['show/(\d+)'] = 'first/gimme/3';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-
