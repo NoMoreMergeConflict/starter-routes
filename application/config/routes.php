@@ -65,3 +65,6 @@ $route['dunno'] = function() {
 $route['([a-zA-Z]{4})/bingo'] = "Bingo";
 $route['comp\d{4}/.*'] = "wise/bingo";
 $route['sleep'] = 'first/zzz';
+$route['([a-zA-Z]{4})/bingo'] = "Bingo";
+$route['comp\d{4}/.*'] = "wise/bingo";
+$route['sleep'] = 'first/zzz';
