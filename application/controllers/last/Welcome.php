@@ -11,7 +11,7 @@ class Welcome extends Application
 	}
 
 	/**
-	 * Homepage for our app
+	 * Show one quote for our app
 	 */
 	public function index()
 	{

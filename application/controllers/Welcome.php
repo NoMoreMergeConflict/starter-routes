@@ -30,16 +30,13 @@ class Welcome extends Application
 		$this->render();
 	}
         
-           function shucks() {
-            $source = $this->quotes->get('2');
-            $this->data['pagebody']='justone';
-            $this->data['mug']=$source['mug'];
-            $this->data['who']=$source['who'];
-            $this->data['what']=$source['what'];
-            
-            $this->render();
-            
-                  
+    function shucks() 
+	{
+    	$source = $this->quotes->get('2');
+        $this->data['pagebody']='justone';
+        $this->data['mug']=$source['mug'];
+        $this->data['who']=$source['who'];
+        $this->data['what']=$source['what'];
+        $this->render();           
     }
-
 }
