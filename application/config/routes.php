@@ -50,6 +50,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'welcome';
+$route['404_override'] = '';
+$route['translate_uri_dashes'] = FALSE;
 $route['lock/(:any)/(:any)'] = 'welcome/shucks/$1';
 $route['show/(\d+)'] = 'first/gimme/3';
 $route['dunno'] = function() {
@@ -60,8 +62,6 @@ $route['dunno'] = function() {
     readfile($source); // dish it
     die(); // and we don't have to go any further
 }; 
-$route['404_override'] = '';
-$route['translate_uri_dashes'] = FALSE;
 $route['([a-zA-Z]{4})/bingo'] = "Bingo";
 $route['comp\d{4}/.*'] = "wise/bingo";
 $route['sleep'] = 'first/zzz';
