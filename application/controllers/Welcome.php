@@ -29,9 +29,6 @@ class Welcome extends Application
 
 		$this->render();
 	}
-<<<<<<< HEAD
-
-=======
         
     function shucks() 
 	{
@@ -42,5 +39,4 @@ class Welcome extends Application
         $this->data['what']=$source['what'];
         $this->render();           
     }
->>>>>>> refs/remotes/NoMoreMergeConflict/develop
 }
