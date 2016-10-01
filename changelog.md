@@ -3,6 +3,12 @@
 > For developers:
 > Please write the latest log on top
 
+### Version 0.0.8
+Fix the issus #3, sleep
+
+### Version 0.0.7
+Fix issues #7 and #8
+- remapped Scorates and Isaac's quotes using regular experssion 
 
 ### Version 0.0.6 @ck
 Fixed the issus #6
