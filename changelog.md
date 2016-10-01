@@ -3,6 +3,11 @@
 > For developers:
 > Please write the latest log on top
 
+### Version 0.1.0
+Finish all the issues
+- Find all four letter words in displayed quotes and replace with asterisks
+- Merge conflict in routes.php, first.php, and changelog.md files
+
 ### Version 0.0.8
 Fix the issus #3, sleep
 
