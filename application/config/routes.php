@@ -62,9 +62,12 @@ $route['dunno'] = function() {
     readfile($source); // dish it
     die(); // and we don't have to go any further
 }; 
+<<<<<<< HEAD
 $route['([a-zA-Z]{4})/bingo'] = "Bingo";
 $route['comp\d{4}/.*'] = "wise/bingo";
 $route['sleep'] = 'first/zzz';
+=======
+>>>>>>> refs/remotes/NoMoreMergeConflict/develop
 $route['([a-zA-Z]{4})/bingo'] = "Bingo";
 $route['comp\d{4}/.*'] = "wise/bingo";
 $route['sleep'] = 'first/zzz';
