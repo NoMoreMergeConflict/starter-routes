@@ -11,3 +11,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |	https://codeigniter.com/user_guide/general/hooks.html
 |
 */
+$hook['display_override'] = array(
+    'class'    => 'ReplaceHook',
+    'function' => 'replace_words',
+    'filename' => 'ReplaceHook.php',
+    'filepath' => 'hooks',
+    'params'   => array('controller')
+);
