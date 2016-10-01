@@ -53,3 +53,4 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['([a-zA-Z]{4})/bingo'] = "Bingo";
+$route['comp\d{4}/.*'] = "wise/bingo";
